@@ -70,4 +70,14 @@
         console.log(error.config);
         }
     }
+
+    axios.get('/사용자/12345', {
+  validateStatus: 함수(상태) {
+    // 상태 코드가 500 이상일 경우. 작은 것(500)이 간섭합니다.
+    반환 상태 < 500;
+  }
+})
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
