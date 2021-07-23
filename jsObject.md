@@ -16,6 +16,7 @@
 - 브라우저 환경 객체: window(전역객체), DOM, BOM, Ajax, HTML5 APIs ...
 - 서버 환경 객체: global(전역객체), http, https, fs, URL, os ...
 - 전역객체: 모든 객체의 유일한 최상위 객체를 의미
+- 서버 환경: 전역환경 this: module.exports, 함수에서 this: 전역객체 global, 화살표함수의 상위 스코프 전역 환경이면 this: module.exports
 
 ## 사용자 정의 객체(User-defined Object)
 
